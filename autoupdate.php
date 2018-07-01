@@ -97,8 +97,6 @@ function UpdateScript($content, $md5)
 	}
 	sleep(1);
 }
-print_r($_SERVER);
-die;
 if(UpdateCheck2())
 {
 	die();
