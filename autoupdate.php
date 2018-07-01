@@ -76,7 +76,7 @@ function UpdateScript($content, $md5)
 	if(function_exists('Msg'))
 	{
 		Msg('{background-blue}########################');
-		Msg( '-- {background-blue}Restating Script.!!' );
+		Msg( '-- {background-blue}Restarting Script.!!' );
 		Msg('{background-blue}########################'.PHP_EOL);
 	}
 	else
