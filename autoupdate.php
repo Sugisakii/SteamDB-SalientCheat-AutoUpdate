@@ -25,7 +25,7 @@ function parseContent($cheat)
 		$contenido .= $item.PHP_EOL;
 		if(strpos($item, $s2) !== false && $c2 == 0)
 		{
-			$contenido .= "include_once('./".$_SERVER['SCRIPT_FILENAME']."');".PHP_EOL;
+			$contenido .= "include_once('./autoupdate');".PHP_EOL;
 			$c2 = 1;
 		}
 	}
